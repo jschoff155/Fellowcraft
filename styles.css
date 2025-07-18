@@ -1,13 +1,43 @@
-img{
-    height:100vh;
+body{
+    background: #97572b;
 }
+.title{
+        text-align: center;
+        font-family: Algerian;
+    }
+    h1,h2,h3,p, li{
+        color: #fdf4ec;
+        font-weight: 600;
+    }
 
 @media screen and (max-width: 800px){
+    .navbar>ul{
+        display:flex;
+        list-style: none;
+        margin:auto;
+    }
+    .navbar>ul>a{
+        margin:5px;
+        text-decoration: none;
+    }
+    .experienceWindowImg{
+        width:80%;
+        border-radius:5px;
+    }
     .experienceWindow{
         width:80%;
+        display:block;
+        text-align: center;
+        margin:auto;
+        padding:5px;
+        border-style:solid;
+        border-width:10px;
+        border-color: #3b1f0f;
+        margin-top:10px;
+        border-radius:5px;
     }
     .title{
         text-align: center;
-        font-family:Algerian
+        font-family: Algerian;
     }
 }
