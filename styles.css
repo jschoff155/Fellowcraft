@@ -16,8 +16,9 @@ body{
         list-style: none;
         margin:auto;
     }
-    .navbar>ul>li{
+    .navbar>ul>a{
         margin:5px;
+        text-decoration: none;
     }
     .experienceWindowImg{
         width:80%;
