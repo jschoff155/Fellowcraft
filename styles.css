@@ -1,13 +1,25 @@
-img{
-    height:100vh;
-}
+.title{
+        text-align: center;
+        font-family: Algerian;
+    }
+
+
+
 
 @media screen and (max-width: 800px){
+    .experienceWindowImg{
+        width:80%;
+        border-radius:5px;
+    }
     .experienceWindow{
         width:80%;
+        display:block;
+        text-align: center;
+        margin:auto;
+        padding:20px;
     }
     .title{
         text-align: center;
-        font-family:Algerian
+        font-family: Algerian;
     }
 }
