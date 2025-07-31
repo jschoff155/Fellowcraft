@@ -24,7 +24,7 @@ body{
         width:80%;
         border-radius:5px;
     }
-    .experienceWindow{
+    .experienceWindow, .productWindow, .card{
         width:80%;
         display:block;
         text-align: center;
@@ -36,8 +36,31 @@ body{
         margin-top:10px;
         border-radius:5px;
     }
+    .card{
+        background-color: #97572b;
+    }
+    .btn{
+        background-color: #3b1f0f;
+        border-color: #97572b;
+    }
     .title{
         text-align: center;
         font-family: Algerian;
+    }
+    .icon{
+        width:20%;
+        border-width:80px;
+        border-color:#3b1f0f;
+    }
+    footer{
+        margin-top:20px;
+        text-align: center;
+    }
+    .SoftwareLogo{
+        margin-top:40px;
+        width:30%;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
     }
 }
