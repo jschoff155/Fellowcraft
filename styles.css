@@ -78,4 +78,8 @@ body{
     #daveAndTheresaPic{
         width:100%;
     }
+    .dropdown{
+        text-align: center;
+        margin-top:20px;
+    }
 }
