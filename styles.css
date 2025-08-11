@@ -67,4 +67,15 @@ body{
         margin-top:30px;
         margin-bottom:50px;
     }
+    .textParagraph{
+        text-align: center;
+        margin-left:3%;
+        margin-right:3%;
+    }
+    .title{
+        text-align: center;
+    }
+    #daveAndTheresaPic{
+        width:100%;
+    }
 }
