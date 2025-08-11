@@ -24,7 +24,7 @@ body{
         width:80%;
         border-radius:5px;
     }
-    .experienceWindow{
+    .experienceWindow, .productWindow, .card{
         width:80%;
         display:block;
         text-align: center;
@@ -36,8 +36,50 @@ body{
         margin-top:10px;
         border-radius:5px;
     }
+    .card{
+        background-color: #97572b;
+    }
+    .btn{
+        background-color: #3b1f0f;
+        border-color: #97572b;
+    }
     .title{
         text-align: center;
         font-family: Algerian;
+    }
+    .icon{
+        width:20%;
+        border-width:80px;
+        border-color:#3b1f0f;
+        margin: 15px;
+    }
+    footer{
+        margin-top:30px;
+        text-align: center;
+    }
+    .SoftwareLogo{
+        max-width:100%;
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+    }
+    .softwarelogoarea{
+        margin-top:30px;
+        margin-bottom:50px;
+    }
+    .textParagraph{
+        text-align: center;
+        margin-left:3%;
+        margin-right:3%;
+    }
+    .title{
+        text-align: center;
+    }
+    #daveAndTheresaPic{
+        width:100%;
+    }
+    .dropdown{
+        text-align: center;
+        margin-top:20px;
     }
 }
