@@ -1,3 +1,8 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
 body{
     background: #97572b;
 }
@@ -146,6 +151,9 @@ body{
         text-align: center;
         margin-top:20px;
     }
+    .contactIconsMobile{
+        display:none;
+    }
 }
 @media screen and (max-width: 800px){
     .navbar{
@@ -153,11 +161,6 @@ body{
     }
     #closeIcon{
         display:none;
-    }
-    #menuIcon{
-        display:block;
-        margin:auto;
-        height:100px;
     }
     .carousel-item img {
     position: absolute;
@@ -169,17 +172,20 @@ body{
         object-fit: scale-down;
     }
     .icon{
-        border-color:#3b1f0f;
-        margin: 15px;
+        display:block;
+        margin: 0;
+        height:100px;
+    }
+    .navbar{
+        margin-left:-7%;
     }
     .navbar>ul{
-        display:block;
         text-align: center;
+        display:block;
         list-style: none;
-        margin:auto;
     }
     .navbar>ul>a{
-        margin:4px;
+        margin:10px;
         text-decoration: none;
     }
     .productWindow, .card{
@@ -206,7 +212,6 @@ body{
         font-family: Algerian;
     }
     .icon{
-        width:20%;
         border-width:80px;
         border-color:#3b1f0f;
         margin: 15px;
@@ -214,6 +219,10 @@ body{
     footer{
         margin-top:30px;
         text-align: center;
+    }
+    .contactIconsMobile{
+        display:flex;
+        justify-content: space-evenly;
     }
     .SoftwareLogo{
         max-width:100%;
