@@ -148,10 +148,13 @@ body{
     }
 }
 @media screen and (max-width: 800px){
-    .navbar, #closeIcon{
+    .navbar{
         display:none;
     }
-    #menubutton{
+    #closeIcon{
+        display:none;
+    }
+    #menuIcon{
         display:block;
         margin:auto;
         height:100px;
