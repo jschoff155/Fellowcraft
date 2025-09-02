@@ -84,8 +84,7 @@ body{
         margin:30px;
     }
     .iconArea{
-        display:flex;
-        justify-content: space-around;
+        display:none;
     }
     .icon{
         width:50%;
@@ -228,6 +227,10 @@ body{
     .contactIconsMobile{
         display:flex;
         justify-content: space-evenly;
+    }
+    .iconArea{
+        display:flex;
+        justify-content: space-around;
     }
     .SoftwareLogo{
         max-width:100%;
