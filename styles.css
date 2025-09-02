@@ -69,6 +69,12 @@ body{
     .card-img-top{
         min-height:400px;
     }
+    #customCard{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:50vh;
+    }
 
 @media screen and (min-width: 800px){
     #menuIcon, #closeIcon{
@@ -106,7 +112,8 @@ body{
     }
     .productMenuArea{
         display:flex;
-        justify-content: space-between;
+        justify-content: center;
+        flex-wrap: wrap;
         margin-bottom:20px;
     }
     .productWindow, .card{
