@@ -159,6 +159,11 @@ body{
     .navbar{
         display:none;
     }
+    .Navicon{
+        display:block;
+        margin:auto;
+        height:70px;
+    }
     #closeIcon{
         display:none;
     }
