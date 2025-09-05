@@ -7,18 +7,21 @@
     <meta name="keywords" content="Leather, locally owned, hand crafted, belts, bags, wallets, dice trays, key tags, can sleeves, koozies, bottle bags, book marks, gun holsters, Des Moines, Madrid, Boone, Ames, Jewell, Clive, Story City, Roland, Ankeny, Stanhope, Stratford, craft, quality, Story City Laundromat">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="stylesheet" href="/styles.css">
+    <script src="functions.js"></script>
     <title>The Foundation of Fellowcraft</title>
 </head>
 <body>
     <div class="title">
         <h1>The Foundation of Fellowcraft</h1>
     </div>
-    <div class="navbar">
+   <img src="../Assets/menu_icon.png" alt="menu_icon" class="Navicon" id="menuIcon" onclick="menuClick()">
+    <img src="../Assets/close.png" alt="close_icon" class="Navicon" id="closeIcon" onclick="menuClose()">
+        <div class="navbar" id="navbar">
             <ul>
                 <a href="../index.html"><li>Home</li></a>
                 <a href="../Subpages/Products.html"><li>Products</li></a>
                 <a href="../Subpages/About.html"><li>About</li></a>
-                <a href="../Subpages/Events.html"><li>Events</li></a>
+                <a href="../Subpages/Order.html"><li>Order</li></a>
             </ul>
     </div>
 
@@ -38,9 +41,11 @@
 
 
 <footer>
-  <a href="https://www.facebook.com/profile.php?id=61557287190691"><img src="../Assets/fellowcraft_fb_icon.png" alt="Facebook Icon" class="icon"></a>
-  <a href="tel:515-450-8954"><img src="../Assets/Phone_icon.png" alt="Phone Icon" class="icon"></a>
-  <a href="mailto:dtbaker1997@gmail.com"><img src="../Assets/Email_icon.png" alt="Email Icon" class="icon"></a>
+  <div class="iconArea">
+    <a href="https://www.facebook.com/profile.php?id=61557287190691"><img src="../Assets/fellowcraft_fb_icon.png" alt="Facebook Icon" class="icon"></a>
+    <a href=""><img src="../Assets/Phone_icon.png" alt="Phone Icon" class="icon"></a>
+    <a href=""><img src="../Assets/Email_icon.png" alt="Email Icon" class="icon"></a>
+  </div>
 
   <div class="softwarelogoarea">
   <p>Powered by</p>
