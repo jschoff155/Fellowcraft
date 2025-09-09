@@ -5,6 +5,7 @@
 }
 a{
     text-decoration: none;
+    color:#fdf4ec;
 }
 body{
     background: #97572b;
@@ -168,6 +169,10 @@ body{
     }
     .contactIconsMobile{
         display:none;
+    }
+    .contactArea{
+        display:flex;
+        justify-content: space-around;
     }
 }
 @media screen and (max-width: 800px){
