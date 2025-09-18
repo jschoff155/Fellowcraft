@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/styles.css">
     <link rel="stylesheet" href="/Stylesheets/products.css">
+    <link rel="stylesheet" href="/Stylesheets/Orderform.css">
     <script src="functions.js"></script>
     <title>Order Form</title>
 </head>
@@ -34,7 +35,7 @@
       <input type="email" name="email" placeholder="Email Address">
       <input type="hidden" name="_next" value="https://fellowcraft/Successfulorder.html">
       <input type="hidden" name="_subject" value="New leather order">
-      <label>Item to order</label>
+      <label class="descriptorArea">Item to order</label>
       <select id="ItemtoOrder" name="selectedOption">
         <option value="Bookmark">Bookmark</option>
         <option value="CanSleeve">Can Sleeve</option>
@@ -45,8 +46,8 @@
         <option value="Bottle Bags">Bottle Bags</option>
         <option value="Custom">Custom - Something different</option>
       </select>
-      <label>Please place any customization requests in the text box below.</label>
-      <input type="text" name="customdetails" id="customdetails" placeholder="Enter your username">
+      <label class="descriptorArea">Please place any customization requests in the text box below.</label>
+      <input type="text" name="customdetails" id="customdetails" placeholder="Enter customization requests">
       <button type="submit">Send</button>
   </form>
 
