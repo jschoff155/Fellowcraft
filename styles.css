@@ -3,6 +3,11 @@
     margin:0;
     box-sizing: border-box;
 }
+.announcement{
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
 a{
     text-decoration: none;
     color:#fdf4ec;
